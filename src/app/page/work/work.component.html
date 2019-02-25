@@ -1,0 +1,29 @@
+<div root>
+    <div>
+        <div>
+            <h3><img src="./assets/img/arrow.png" /> {{ nameCompagny }}</h3>
+            Poste : {{ typeWork }}<br/>
+            Durée : {{ dateCompagny }}<br/>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div>
+                <h1>{{ titleText }}</h1>
+            </div>
+            <div>
+                <div>
+                    <img src="{{ urlImg }}" />
+                    <div #buttonSee>VOIR</div>
+                </div>
+            </div>
+            <div>
+                <p [innerHTML]="contentText"></p>
+                <p>
+                    LANGAGES / TECHNOS :<br/>
+                    <span [innerHTML]="technoText"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

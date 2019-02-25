@@ -1,0 +1,26 @@
+@import '../../sass/variables.scss';
+@import '../../sass/mixins.scss';
+
+div[root]{
+    display: flex;
+    height: $height_footer;
+    padding: 5px 10px 3px 10px;
+    @include round_corner_shadow;
+    > div{
+        width: 100%;
+        height: auto;
+        margin:auto;
+        @include no_round_corner_shadow;
+        > div{
+            display: inline-block;
+            white-space: nowrap;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        > div:last-child{
+            width: auto;
+            float: right;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import 'variables.scss';
+
+@mixin round_corner_shadow{
+    border: 1px solid #F4F4F4;
+    border-radius: $border_radius;
+    box-shadow: 0px 0px 14px #F4F4F4;
+}
+
+@mixin no_round_corner_shadow{
+    border: 0px solid $color_background_default;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+@mixin round_corner{
+    background-color:$color_backround_work;
+    border: 1px solid $color_backround_work;
+    border-radius: $border_radius;
+}
+
+@mixin no_round_corner{
+    background-color:$color_background_default;
+    border: none;
+    border-radius: 0px;
+}
+
+@mixin round_corner_button{
+    background-color:$color_background_button;
+    border: 1px solid $color_background_button;
+    border-radius: $border_radius;
+}

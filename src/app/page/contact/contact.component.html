@@ -1,0 +1,42 @@
+<div root>
+    <div>
+        <div>
+            <div>
+                <img src="./assets/img/picto_café.png" />
+            </div>
+            <div>
+                <h3>UN PROJET UNE IDÉE ?</h3>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <form [formGroup]="contactForm" (ngSubmit)="onSubmitForm()">
+                <div><div>ME CONTACTER</div></div>
+                <div>
+                    <div>NOM : </div>
+                    <div><input my-formControl name="contactName" type="text" value="" formControlName="name" /></div>
+                </div>
+                <div>
+                    <div>PRENOM : </div>
+                    <div><input my-formControl name="contactFirstName" type="text" value="" formControlName="firstName" /></div>
+                </div>
+                <div>
+                    <div>MAIL : </div>
+                    <div><input my-formControl name="contactMail" type="text" value="" formControlName="mail" /></div>
+                </div>
+                <div>
+                    <span>
+                        <div>MESSAGE :</div>
+                        <div>
+                            <textarea my-formControl name="contactMessage" rows="10" formControlName="message"></textarea>
+                        </div>
+                    </span>
+                </div>
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

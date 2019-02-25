@@ -1,0 +1,150 @@
+<root>
+	<menu>
+		<element>
+			<title>menu 1</title>
+			<url>work/0</url>
+			<img>./assets/img/logo_vestiaire.png</img>
+			<category>Fullstack</category>
+		</element>
+		<element>
+			<title>menu 2</title>
+			<url>work/1</url>
+			<img>./assets/img/logo_effisys.png</img>
+			<category>Fullstack</category>
+		</element>
+		<element>
+			<title>menu 3</title>
+			<url>work/2</url>
+			<img>./assets/img/logo_ivs.png</img>
+			<category>Fullstack</category>
+		</element>
+		<element>
+			<title>menu 4</title>
+			<url>work/3</url>
+			<img>./assets/img/logo_m2i.png</img>
+			<category>Fullstack</category>
+		</element>
+		<element>
+			<title>menu 5</title>
+			<url>work/4</url>
+			<img>./assets/img/logo_ozen.png</img>
+			<category>Flash</category>
+		</element>
+		<element>
+			<title>menu 6</title>
+			<url>work/5</url>
+			<img>./assets/img/logo_vuitton.png</img>
+			<category>Flash</category>
+		</element>
+		<element>
+			<title>menu 7</title>
+			<url>work/6</url>
+			<img>./assets/img/logo_ogilvy.png</img>
+			<category>Flash</category>
+		</element>
+		<element>
+			<title>menu 8</title>
+			<url>work/7</url>
+			<img>./assets/img/logo_hachette.png</img>
+			<category>Flash</category>
+		</element>
+	</menu>
+	<page>
+		<content>
+			<titleText>Site e-commerce</titleText>
+			<contentText>
+				<![CDATA[Vestiaire Collective est un site marchand d'articles de luxe de seconde main. Il met en contact les vendeurs et les acheteurs du monde entier.<br/>Sur le site de Tourcoing, pendant 6 mois, j'ai travaillé dans une équipe de 6 personnes (2 à Tourcoing, 4 à Paris), nous avions en charge la maintenance et l'évolution des différents outils et du back office du site (gestion des stocks, contact avec les transporteurs, GDPR, calcul des montants douaniers, tests unitaire, ...).]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient le php, html, css, javascript, angularJs, mysql, symfony 4, PhpStorm, Git, méthode Agile]]></technoText>
+			<img>./assets/img/bandeau_bas_vestiaire.png</img>
+			<link>https://fr.vestiairecollective.com</link>
+			<nameCompagny>Vestiaire Collective</nameCompagny>
+			<dateCompagny>Juin 2018 à Décembre 2018</dateCompagny>
+			<typeWork>Développeur Full Stack</typeWork>
+		</content>
+		<content>
+			<titleText>Logiciel Effitrace</titleText>
+			<contentText>
+				<![CDATA[Effitrace est un logiciel de gestion de stock et d'expédition pour les professionnels de la e-logistique. J'ai travaillé sur le développement de nouvelles fonctionnalités (Ajout de nouveaux transporteurs, évolution du système de gestion des emplacements pour les stocks, création d'étiquettes transporteur, création de test unitaire, ...). J'ai également participé à la maintenance de la partie web et mobile (optimisation des performances, évolutions sur des parties existantes, ...) et au debug.]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et technos utilisées étaient le php, C#, Postgresql, css, javascript, json, zpl, jQuery, NetBeans, Visual Studio, P.O.O., méthode Agile]]></technoText>
+			<img>./assets/img/bandeau_bas_effisys.png</img>
+			<link>https://www.effitrace.biz/effisys/</link>
+			<nameCompagny>Effisys</nameCompagny>
+			<dateCompagny>Juin 2017 à Juin 2018</dateCompagny>
+			<typeWork>Développeur Full Stack</typeWork>
+		</content>
+		<content>
+			<titleText>Intelligent Video Software</titleText>
+			<contentText>
+				<![CDATA[Intelligent Vidéo Software est une solution d'analyse d'image et d'extraction d'informations intelligentes. J'ai développé un prototype constitué d'un backend servant à gérer des zones définis par un nombre de points non déterminés et leurs positionnements dans l'espace. Un frontend affichant ces zones et permettant de les modifier (ajouter/retirer des zones, ajouter/retirer des points, déplacer les zones, déplacer les différents points des zones, ...).]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient le php, mysql, html, css, javascript, typeScript, Symfony 3, twig, Angular, NetBeans, P.O.O.]]></technoText>
+			<img>./assets/img/bandeau_bas_IVS.png</img>
+			<link>./assets/work/testAngularMinifyIVS/src</link>
+			<nameCompagny>I.V.S.</nameCompagny>
+			<dateCompagny>Mars 2017 à Mars 2017</dateCompagny>
+			<typeWork>Développeur Full Stack</typeWork>
+		</content>
+		<content>
+			<titleText>Formation Symfony M2I</titleText>
+			<contentText>
+				<![CDATA[Formation, sur le site EuraTechnologies, orientée autour du framework Symfony avec des mises en pratiques. Développement de backend et de frontend à l'aide de symfony, travail sur des formulaires, les requêtes, la sécurité, création de services, ...]]>
+			</contentText>
+			<technoText><![CDATA[Les Langages et les technos utilisées étaient le php, mysql, html, css, javascript, Symfony 3, twig, jQuery, Bootstrap, P.O.O.]]></technoText>
+			<img>./assets/img/bandeau_bas_m2i.png</img>
+			<link>https://www.m2iformation.fr</link>
+			<nameCompagny>M2I</nameCompagny>
+			<dateCompagny>Novembre 2016 à Février 2017</dateCompagny>
+			<typeWork>Développeur Full Stack</typeWork>
+		</content>
+		<content>
+			<titleText>O.ZEN GAME</titleText>
+			<contentText>
+				<![CDATA[J'ai travaillé sur le jeu vidéos O.zen pour le studio Ubisoft à Lille, il a été développé pour les supports P.C., Mac et téléphone et tablette IOS. C'est un jeu de biofeeback, qui invite le joueur à faire des exercices de respiration :  La relaxation synchronise votre rythme cardiaque et votre rythme respiratoire. L'utilisateur bénéficie ainsi d'avantages médicalement prouvés. Les informations physiologiques sont collectées par un capteur numérique médical. La partie de mon travail s'est portée sur tous les aspects du jeu, création de nouvelles parties, de nouvelles fonctionnalités, debug. Le jeu est sorti en 2015.]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient l'AS3, xml, Flash, FlashBuilder, P.O.O.]]></technoText>
+			<img>./assets/img/bandeau_bas_ozen.png</img>
+			<link>https://www.florenceservanschreiber.com/decouvrir-o-zen/</link>
+			<nameCompagny>UBISOFT</nameCompagny>
+			<dateCompagny>Mai 2013 à Septembre 2015</dateCompagny>
+			<typeWork>Développeur AS3</typeWork>
+		</content>
+		<content>
+			<titleText>Développeur indépendant Flash AS3</titleText>
+			<contentText>
+				<![CDATA[Pendant près de 4 ans j'ai travaillé comme développeur Flash AS3. J'ai participé à la réalisation de sites institutionnels (Louis Vuitton, Citoën, ...), de sites événementiels (Lipton ice tea, jeux pour canal+, ...). Le point commun entre toutes ces expériences est l'utilisation de l'interactivité, du multimédia et les animations.]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient le php, javascript, html, css, json, xml, AS3, Flash, FlashBuilder, Eclipse, P.O.O.]]></technoText>
+			<img>./assets/img/bandeau_bas_vuitton.png</img>
+			<link>https://fr.louisvuitton.com/fra-fr/homepage</link>
+			<nameCompagny>Indépendant</nameCompagny>
+			<dateCompagny>Aout 2009 à Avril 2013</dateCompagny>
+			<typeWork>Développeur Front AS3</typeWork>
+		</content>
+		<content>
+			<titleText>Développeur indépendant Flash AS2</titleText>
+			<contentText>
+				<![CDATA[J'ai commencé à être développeur indépendant sur la techno Flash/AS2. J'ai travaillé pour une boite de e-learning (Demos-interactive) et des agences de pubs comme Ogilvy. Ces travaux étaient pour des clients finals comme AREVA, Louis Vuitton, ...]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient le Flash/AS2, xml, php, javascript, css, html, P.O.O.]]></technoText>
+			<img>./assets/img/bandeau_bas_ogilvy.png</img>
+			<link>https://www.ogilvy.com</link>
+			<nameCompagny>Indépendant</nameCompagny>
+			<dateCompagny>Aout 2008 à Juillet 2009</dateCompagny>
+			<typeWork>Développeur Front AS2</typeWork>
+		</content>
+		<content>
+			<titleText>Développeur Flash AS2</titleText>
+			<contentText>
+				<![CDATA[Pendant 1 an j'ai travaillé sur un e-magazine en Flash/AS2 pour Hachette. Mon travail était de réaliser le contenu des pages du e-magazine. Le contenu de ces pages était constitué de contenu interactif sous forme de mini jeux, de vidéos interactives, de contenu musicaux, etc...]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient le Flash/AS2, php, javascript, html, css, xml, flux RSS, mysql, AJAX]]></technoText>
+			<img>./assets/img/bandeau_bas_hachette.png</img>
+			<link>https://www.hachette.fr</link>
+			<nameCompagny>Hachette SCPE</nameCompagny>
+			<dateCompagny>Juillet 2007 à Juillet 2008</dateCompagny>
+			<typeWork>Développeur Front AS2</typeWork>
+		</content>
+	</page>
+</root>
