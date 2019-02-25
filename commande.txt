@@ -1,1 +1,12 @@
 ng build --prod --build-optimizer
+
+
+//GIT COMMANDES
+#Configure l'origine quand le projet éxiste dèja
+git remote add origin https://github.com/Flow-github/nom_du_repo.git
+#Lie la branche master sur l'origine au projet local
+git push -u origin master
+#configure le user email, retirer le "--global" pour que l'adresse ne soit utilisée que pour ce projet
+git config --global user.email "ideation@hotmail.fr"
+#configure le user name, retirer le "--global" pour que user name ne soit utilisée que pour ce projet
+git config --global user.name "Flow-github"
