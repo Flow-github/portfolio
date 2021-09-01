@@ -3,53 +3,89 @@
 		<element>
 			<title>menu 1</title>
 			<url>work/0</url>
-			<img>./assets/img/logo_vestiaire.png</img>
-			<category>Fullstack</category>
+			<img>./assets/img/logo_OPEN.png</img>
+			<category>FrontEnd</category>
 		</element>
 		<element>
 			<title>menu 2</title>
 			<url>work/1</url>
-			<img>./assets/img/logo_effisys.png</img>
-			<category>Fullstack</category>
+			<img>./assets/img/logo_CA_CIB.png</img>
+			<category>FrontEnd</category>
 		</element>
 		<element>
 			<title>menu 3</title>
 			<url>work/2</url>
-			<img>./assets/img/logo_ivs.png</img>
+			<img>./assets/img/logo_vestiaire.png</img>
 			<category>Fullstack</category>
 		</element>
 		<element>
 			<title>menu 4</title>
 			<url>work/3</url>
-			<img>./assets/img/logo_m2i.png</img>
+			<img>./assets/img/logo_effisys.png</img>
 			<category>Fullstack</category>
 		</element>
 		<element>
 			<title>menu 5</title>
 			<url>work/4</url>
-			<img>./assets/img/logo_ozen.png</img>
-			<category>Flash</category>
+			<img>./assets/img/logo_ivs.png</img>
+			<category>Fullstack</category>
 		</element>
 		<element>
 			<title>menu 6</title>
 			<url>work/5</url>
-			<img>./assets/img/logo_vuitton.png</img>
-			<category>Flash</category>
+			<img>./assets/img/logo_m2i.png</img>
+			<category>Fullstack</category>
 		</element>
 		<element>
 			<title>menu 7</title>
 			<url>work/6</url>
-			<img>./assets/img/logo_ogilvy.png</img>
+			<img>./assets/img/logo_ozen.png</img>
 			<category>Flash</category>
 		</element>
 		<element>
 			<title>menu 8</title>
 			<url>work/7</url>
+			<img>./assets/img/logo_vuitton.png</img>
+			<category>Flash</category>
+		</element>
+		<element>
+			<title>menu 9</title>
+			<url>work/8</url>
+			<img>./assets/img/logo_ogilvy.png</img>
+			<category>Flash</category>
+		</element>
+		<element>
+			<title>menu 10</title>
+			<url>work/9</url>
 			<img>./assets/img/logo_hachette.png</img>
 			<category>Flash</category>
 		</element>
 	</menu>
 	<page>
+		<content>
+			<titleText>Logiciel online</titleText>
+			<contentText>
+				<![CDATA[En charge de l'équipe front pour le développement d'un logiciel online commandé par la DGAC, j'ai participé au chiffrage, déterminé les choix technique et la stratégie de développement. Le logiciel est réalisé en Angular coté front et en Symfony 4 pour l'api REST coté back.]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient le TypeScript, Javascript, css, Sass, php, Bootstrap, Html, Visual Studio Code, Angular, Jest, npm, Git, Json, P.O.O., méthode agile]]></technoText>
+			<img>./assets/img/bandeau_bas_open.jpg</img>
+			<link>https://www.open.global/fr</link>
+			<nameCompagny>Open</nameCompagny>
+			<dateCompagny>Depuis Janvier 2021</dateCompagny>
+			<typeWork>Développeur Front</typeWork>
+		</content>
+		<content>
+			<titleText>Site vitrine</titleText>
+			<contentText>
+				<![CDATA[Au sein du Crédit Agricole j'ai fait partie de l'équipe front en charge des sites intranet de près de 300 filiales. Les sites sont fait en SharePoint, le front est manipulé avec du html, css et javascript pour correspondre aux chartes graphiques. Ce poste m'a également amener à développer une webApp en Angular, des sites vitrine avec WordPress en créant de nouveaux thémes et des plugins jQuery pour créer de nouvelles fonctionnalités.]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient le TypeScript, Javascript es5 es6, css, Sass, php, jQuery, Bootstrap, Html, SharePoint Designer, Sharepoint, Tween.js, Visual Studio Code, Angular, WebPack, Babel, npm, Git, Json, Scout, WordPress P.O.O., méthode agile]]></technoText>
+			<img>./assets/img/bandeau_bas_ca.png</img>
+			<link>https://mediasociaux.credit-agricole.com</link>
+			<nameCompagny>Crédit Agricole</nameCompagny>
+			<dateCompagny>Juillet 2019 à Décembre 2020</dateCompagny>
+			<typeWork>Développeur Front</typeWork>
+		</content>
 		<content>
 			<titleText>Site e-commerce</titleText>
 			<contentText>
