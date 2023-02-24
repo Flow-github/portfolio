@@ -14,7 +14,6 @@ import { PageNotFoundComponent } from './page/pageNotFound/pageNotFound.componen
 import { StructureRequest } from './ajax/structureXML.request';
 import { SendMessageRequest } from './ajax/SendMessage.request';
 import { RouteService } from './service/route.service';
-import { environment } from '../environments/environment';
 import { NativeElementInjectorDirective } from './utils/nativeElement.injector.directive';
 import { HeaderComponent } from './header/header.component';
 import { SafeHtmlPipe } from './utils/safehtml.pipe';
@@ -32,7 +31,6 @@ import { SafeHtmlPipe } from './utils/safehtml.pipe';
     NativeElementInjectorDirective,
     SafeHtmlPipe
   ],
-  //exports: [AbstractPage,],
   imports: [
     BrowserModule,
     AppRoutingModule,

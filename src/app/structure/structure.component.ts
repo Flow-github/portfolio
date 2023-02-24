@@ -4,14 +4,13 @@ import { StructureRequest } from '../ajax/structureXML.request';
 import { HttpErrorResponse } from '../../../node_modules/@angular/common/http';
 import { Subscription } from '../../../node_modules/rxjs';
 import { PageEntitiesManager } from '../entities/pageEntity/page.entities.manager';
-import { Router, ActivatedRoute, Event, NavigationEnd, NavigationStart } from '@angular/router';
+import { Router, ActivatedRoute, Event, NavigationEnd } from '@angular/router';
 import { RouteService } from '../service/route.service';
 
 @Component({
   selector: 'structure-root',
   templateUrl: './structure.component.html',
   styleUrls: ['./structure.component.scss'],
-  //providers: [NavComponent],
 })
 
 export class StructureComponent implements OnInit {
@@ -69,10 +68,6 @@ export class StructureComponent implements OnInit {
   }
 
   private getParamRoute():string{
-    /*console.log(this.activeRoute); 
-    console.log(this.activeRoute.snapshot); 
-    console.log(this.activeRoute.snapshot.params); 
-    console.log(this.activeRoute.snapshot.children);*/
     return this.activeRoute.snapshot.children[0].params.idPage;
     //return this.activeRoute.snapshot.params['id'];
   }
