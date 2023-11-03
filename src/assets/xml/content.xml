@@ -3,65 +3,101 @@
 		<element>
 			<title>menu 1</title>
 			<url>work/0</url>
-			<img>./assets/img/logo_OPEN.png</img>
+			<img>./assets/img/logo_cleverage.png</img>
 			<category>FrontEnd</category>
 		</element>
 		<element>
 			<title>menu 2</title>
 			<url>work/1</url>
-			<img>./assets/img/logo_CA_CIB.png</img>
+			<img>./assets/img/logo_SQLI.png</img>
 			<category>FrontEnd</category>
 		</element>
 		<element>
 			<title>menu 3</title>
 			<url>work/2</url>
-			<img>./assets/img/logo_vestiaire.png</img>
-			<category>Fullstack</category>
+			<img>./assets/img/logo_OPEN.png</img>
+			<category>FrontEnd</category>
 		</element>
 		<element>
 			<title>menu 4</title>
 			<url>work/3</url>
-			<img>./assets/img/logo_effisys.png</img>
-			<category>Fullstack</category>
+			<img>./assets/img/logo_CA_CIB.png</img>
+			<category>FrontEnd</category>
 		</element>
 		<element>
 			<title>menu 5</title>
 			<url>work/4</url>
-			<img>./assets/img/logo_ivs.png</img>
+			<img>./assets/img/logo_vestiaire.png</img>
 			<category>Fullstack</category>
 		</element>
 		<element>
 			<title>menu 6</title>
 			<url>work/5</url>
-			<img>./assets/img/logo_m2i.png</img>
+			<img>./assets/img/logo_effisys.png</img>
 			<category>Fullstack</category>
 		</element>
 		<element>
 			<title>menu 7</title>
 			<url>work/6</url>
-			<img>./assets/img/logo_ozen.png</img>
-			<category>Flash</category>
+			<img>./assets/img/logo_ivs.png</img>
+			<category>Fullstack</category>
 		</element>
 		<element>
 			<title>menu 8</title>
 			<url>work/7</url>
-			<img>./assets/img/logo_vuitton.png</img>
-			<category>Flash</category>
+			<img>./assets/img/logo_m2i.png</img>
+			<category>Fullstack</category>
 		</element>
 		<element>
 			<title>menu 9</title>
 			<url>work/8</url>
-			<img>./assets/img/logo_ogilvy.png</img>
+			<img>./assets/img/logo_ozen.png</img>
 			<category>Flash</category>
 		</element>
 		<element>
 			<title>menu 10</title>
 			<url>work/9</url>
+			<img>./assets/img/logo_vuitton.png</img>
+			<category>Flash</category>
+		</element>
+		<element>
+			<title>menu 11</title>
+			<url>work/10</url>
+			<img>./assets/img/logo_ogilvy.png</img>
+			<category>Flash</category>
+		</element>
+		<element>
+			<title>menu 12</title>
+			<url>work/11</url>
 			<img>./assets/img/logo_hachette.png</img>
 			<category>Flash</category>
 		</element>
 	</menu>
 	<page>
+		<content>
+			<titleText>Site e-commerce des Galeries Lafayette</titleText>
+			<contentText>
+				<![CDATA[Refonte du site e-commerce des Galeries Lafayette. Travail dans l'équipe front-end en tant que free-lance. Réalisation du module de zoom sur les images produits. Travail sur les urls matchers. Factorisation du code et des composants. Améliorations des performances. SEO et accessibilité ...]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient l'Angular, TypeScript, scss, html, rxjs, ngrx, Git, Jira, VSCode, SAP Spartacus, méthode agile]]></technoText>
+			<img>./assets/img/bandeau_bas_clever.jpg</img>
+			<link>https://www.galerieslafayette.com</link>
+			<nameCompagny>Clever Age</nameCompagny>
+			<dateCompagny>Avril 2023 à Novembre 2023</dateCompagny>
+			<typeWork>Développeur Front</typeWork>
+		</content>
+		<content>
+			<titleText>Aquaviz: Groupe Suez</titleText>
+			<contentText>
+				<![CDATA[Développement et maintenance de l'application Aquaviz sur la gestion de l'eau du groupe Suez.]]>
+			</contentText>
+			<technoText><![CDATA[Les langages et les technos utilisées étaient l'Angular, TypeScript, scss, html, rxjs, VSCode, Git, Jira, méthode agile]]></technoText>
+			<img>./assets/img/bandeau_bas_sqli.jpg</img>
+			<link>https://www.sqli.com/fr-fr</link>
+			<nameCompagny>SQLI</nameCompagny>
+			<dateCompagny>Octobre 2022 à février 2023</dateCompagny>
+			<typeWork>Développeur Front</typeWork>
+		</content>
 		<content>
 			<titleText>Logiciel online</titleText>
 			<contentText>
@@ -71,7 +107,7 @@
 			<img>./assets/img/bandeau_bas_open.jpg</img>
 			<link>https://www.open.global/fr</link>
 			<nameCompagny>Open</nameCompagny>
-			<dateCompagny>Depuis Janvier 2021</dateCompagny>
+			<dateCompagny>Janvier 2021 Septembre 2022</dateCompagny>
 			<typeWork>Développeur Front</typeWork>
 		</content>
 		<content>
