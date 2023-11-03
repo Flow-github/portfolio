@@ -1,7 +1,4 @@
-import { Injectable } from '@angular/core';
 import { MenuElementEntity } from './menuElement.entity';
-
-@Injectable()
 
 export class MenuEntitiesManager{
 

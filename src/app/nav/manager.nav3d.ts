@@ -1,4 +1,4 @@
-import { Injectable, EventEmitter, ElementRef } from '@angular/core';
+import { EventEmitter, ElementRef } from '@angular/core';
 import * as THREE from 'three';
 import * as TWEEN from '@tweenjs/tween.js';
 import { MenuElementEntity } from '../entities/menuEntity/menuElement.entity';
@@ -7,7 +7,6 @@ import { PlaneNav } from './plane.nav';
 
 //declare var require:any;
 
-@Injectable()
 export class ManagerNav3D{
 
     //private static TWEEN: any = require('@tweenjs/tween.js');

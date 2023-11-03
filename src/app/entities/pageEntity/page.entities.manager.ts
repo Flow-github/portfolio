@@ -1,7 +1,5 @@
-import { Injectable } from '@angular/core';
 import { PageEntity } from './page.entity';
 
-@Injectable()
 
 export class PageEntitiesManager{
 
